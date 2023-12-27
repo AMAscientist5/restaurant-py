@@ -2,10 +2,12 @@
 <div class="container mt-5">
   <div class="row row-cols-1 row-cols-lg-3 g-4">
     {% for i in categories %}
-    <div class="card m-3" style="width: 18rem">
+    <div class="card m-2" style="width: 16rem">
       <img src="{{ i.strCategoryThumb }}" class="card-img-top p-3" alt="..." />
       <div class="card-body">
+        {% comment %}
         <h5 class="card-title">{{ i.idCategory }}</h5>
+        {% endcomment %}
         <h5 class="card-title">{{ i.strCategory }}</h5>
         <p class="card-text">{{ i.strCategoryDescription|truncatewords:10 }}</p>
       </div>
