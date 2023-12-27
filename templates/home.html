@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% load static %} {% block content %} <link
+rel="stylesheet" href="{% static "css/style.css" %} " />
+<div class="container-div">
+  <div class="text-div">
+    <h3>
+      Culinary Symphony: A Delightful Journey Through Exquisite Flavors,
+      Textures, and Artistry in Every Bite of Your Exceptional Meal!
+    </h3>
+    <p class="text">
+      Indulge in a culinary masterpiece, where every dish is a symphony of
+      flavors that dance on your palate. Begin your meal with a tantalizing
+      appetizer, a burst of freshness that awakens your taste buds. As you delve
+      into the main course, savor the succulence of perfectly cooked proteins,
+      paired harmoniously with vibrant vegetables and aromatic herbs. Each bite
+      is a journey through a world of textures and tastes, a celebration of the
+      chef's artistry. The finale, a decadent dessert, is a sweet crescendo that
+      leaves a lasting impression. This meal is not just sustenance; it's an
+      experience, a moment of pure gastronomic delight.
+    </p>
+  </div>
+  <img
+    class="img-size"
+    src="{% static 'images/homepic.jpg' %}"
+    alt="home-pic"
+  />
+</div>
+
+{% endblock content %}

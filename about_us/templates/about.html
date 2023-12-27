@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+
+<div class="container mt-5">
+  <div class="row align-items-center">
+    <div class="col-lg-8">
+      <h2 class="mb-4">AboutUs</h2>
+      <p class="">
+        Welcome to our culinary haven, where passion meets flavor! At , we are
+        more than just a dining experience — we are a celebration of gastronomy,
+        a blend of cultures, and a dedication to crafting extraordinary moments
+        for our cherished guests. Our journey began with a simple philosophy: to
+        create a space where food becomes an art, and every meal tells a unique
+        story. From our expert chefs who infuse creativity into every dish to
+        our warm and inviting ambiance, we strive to make every visit an
+        unforgettable experience. is not just a restaurant; it's a destination
+        for those who appreciate the art of fine dining. Explore our diverse
+        menu inspired by global flavors, where each bite is a journey through
+        culinary excellence. We invite you to join us and be a part of our
+        story.
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img
+        src="{% static 'imge/aboutpic.jpg' %}"
+        class="img-fluid rounded"
+        alt="About Us Image"
+      />
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
